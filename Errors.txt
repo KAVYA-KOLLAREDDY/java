@@ -1,0 +1,34 @@
+1. when I use 
+ArrayList al = new ArrayList();
+ al.add(100);
+ al.add("Welcome");
+ al.add(15.5);
+ al.add(true);
+System.out.print(al);
+
+Error: 
+PS F:\JAVA_Training\src\java1> javac ArraylistExample.java
+Note: ArraylistExample.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+Solved: when I made this change---
+ArrayList<Object> al = new ArrayList();
+
+
+
+Exception:
+Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+
+        at java1.ArraylistExample.main(ArraylistExample.java:6)
+
+Reason: When I mistakenly write the code after the main method. 
+
+
+Exception:
+Exception in thread "main" java.lang.Error: Unresolved compilation problems: 
+        object cannot be resolved to a type
+        Type mismatch: cannot convert from element type Object to object
+
+        at java1.ArraylistExample.main(ArraylistExample.java:42)
+
+Reason: When I write object instead of Object.
