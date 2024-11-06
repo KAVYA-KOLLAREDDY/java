@@ -57,9 +57,9 @@ public class ArraylistExample {
 
         // //Sort... Collections.sort()
         // System.out.println("Elements in the arraylist:" +al);
-        Collections.sort(al);
-        System.out.println("Elements after sorting:"+al);
-        //it is not working bcz datatypes i have used everything so it can't sort
+        // Collections.sort(al);
+        // System.out.println("Elements after sorting:"+al);
+        // //it is not working bcz datatypes i have used everything so it can't sort
 
         Collections.sort(al,Collections.reverseOrder());//it also not worked now.
 
