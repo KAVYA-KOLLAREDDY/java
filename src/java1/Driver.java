@@ -1,8 +1,8 @@
 package java1;
 
-import java1.java2.Person;
-
 import java.util.*;
+
+import java1.Inheritance.Person;
 public class Driver extends Person{
     long driverLicenseNumber;
     Date expirationDate;

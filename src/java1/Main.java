@@ -1,5 +1,5 @@
 package java1;
-import java1.java2.Person;
+import java1.Inheritance.Person;
 
 public class Main{
     public static void main(String[] args){
