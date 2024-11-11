@@ -20,9 +20,11 @@ public class Streams {
 
         // we can perform all intermediate operations on one stream but once u close it
         // i mean
-        // once we use one terminator operator the stream ends there we need create
+        // once we use one terminator operator the stream ends there... we need create
         // another stream for another termination operations.
 
+
+        //termination operations
         long a = num.stream()
                 .filter(n -> n % 2 == 0)
                 .count();

@@ -4,6 +4,7 @@
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
-        "lib\\mssql-jdbc-12.8.1.jre11.jar"
+        "lib\\junit-4.13.2.jar",
+        "f:\\JAVA_Training\\lib\\mssql-jdbc-12.8.1.jre11.jar"
     ]
 }
